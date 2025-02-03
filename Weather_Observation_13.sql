@@ -1,0 +1,6 @@
+SELECT 
+    TRUNCATE(SUM(LAT_N), 4) AS sum_latitude
+FROM 
+    STATION
+WHERE 
+    LAT_N > 38.7780 AND LAT_N < 137.2345;
